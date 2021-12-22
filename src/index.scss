@@ -1,0 +1,25 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+	margin: 0;
+	font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+ol,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes glowing {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
